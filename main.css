@@ -1,4 +1,4 @@
-/* body{
+body{
   margin: 0 auto;
 
   font-family: 'Alegreya', serif;
@@ -21,4 +21,4 @@ h1 {
 .image-grid:nth-child(1){
 
   max-width: 100%;;
-} */
+}
