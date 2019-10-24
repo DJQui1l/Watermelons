@@ -23,21 +23,22 @@ h1 {
 }
 
 .image-grid {
+  margin: 0 auto;
   display: grid;
-  grid-template: 100% / 33% 33% 33%;
+  grid-template: auto / repeat(4, 25% );
   padding: 2%;
-  margin: 2%;
+  align-items: center;
+
+
 
 }
 
 .image-grid img{
-  display: flex;
-  justify-content: space-between;
-  margin: 0 auto;
-  justify-content: center;
+text-align: center;
+background-color: red;
+  height: auto;
+  width: 75%;
 
-  width:50%;
-  height:auto;
 
 }
 
