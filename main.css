@@ -21,3 +21,40 @@ h1 {
   background-color: #ea5169;
 
 }
+
+.image-grid {
+  display: grid;
+  grid-template: 100% / 33% 33% 33%;
+  padding: 2%;
+  margin: 2%;
+
+}
+
+.image-grid img{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  justify-content: center;
+
+  width:50%;
+  height:auto;
+
+}
+
+
+
+footer {
+  position: absolute;
+  bottom: 0;
+  background-color: #ea5169;
+
+width: 100%;
+
+}
+
+footer p{
+  margin: 0 auto;;
+
+  text-align: center;
+  width: 50%;
+}
