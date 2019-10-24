@@ -41,20 +41,28 @@ h1 {
 
 }
 
-
-
-footer {
-  position: absolute;
-  bottom: 0;
-  background-color: #ea5169;
-
-width: 100%;
-
+#wTypes {
+display: grid;
+grid-template: auto / repeat(3, 33%);
+text-align: center;
+margin: 2%;
 }
 
-footer p{
-  margin: 0 auto;;
+#wTypes h5{
+  display:flex;
+  justify-content: center;
+  margin: 0 1%;
 
+font-size: 20px;
+
+  width: 100%;
+
+align-items: center;
+
+
+}
+#wTypes ul{
+  list-style-type: none;
   text-align: center;
-  width: 50%;
+  font-size: 20px;
 }
